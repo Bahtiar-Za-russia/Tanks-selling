@@ -1,0 +1,115 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgba(220, 220, 220, 0.5);
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.nav-link{
+    font-size: 20px;
+    height: 25%;
+    animation: onUnhover 0.3s forwards;
+}
+.nav-link:hover{
+    animation: onHover 0.3s forwards;
+}
+header{
+    background-repeat: repeat-x;
+    background-size: cover;
+    box-shadow: 0px 5px 10px rgba(148, 120, 120, 0.507);
+    color: black;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+body{
+    background-image: url('https://wiki.warthunder.ru/images/thumb/f/f5/%D0%A2-72%D0%913._%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B0_%D0%B8_%D0%BD%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BA%D0%B8.png/1920px-%D0%A2-72%D0%913._%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B0_%D0%B8_%D0%BD%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BA%D0%B8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgba(255, 255, 255, 0.92);
+
+}
+main{
+    margin-top:5%;
+}      
+.title{
+    margin-bottom: 15%;
+}
+.block{
+    margin-bottom: 5%;
+    justify-content: center;
+}
+.block img{
+    height: 175px;
+    width: 175px;
+    margin-right: 5%;
+}
+.title-header{
+    font-size: 32px;
+    text-align: center;
+}
+.title-text{
+    font-size: 20px;
+    text-align: center;
+}
+@keyframes onHover{
+    0%{
+        height: 25%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+@keyframes onUnhover{
+    0%{
+        height: 100%;
+    }
+    100%{
+        height: 25%;
+    }
+}
+
+#carousel {
+    width: 50vw;
+    height: 50vh;
+    margin-left: 25%;
+}
+
+.slide-item {
+    height: 50vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 50%;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#first-slide {
+    background-image: url(https://wiki.warthunder.ru/images/thumb/9/93/T_80UM2_main_2.png/800px-T_80UM2_main_2.png);
+}
+
+#twelwe-slide {
+    background-image: url(https://wiki.warthunder.ru/images/thumb/6/6f/Leopard_2A7V._Main_1.png/800px-Leopard_2A7V._Main_1.png);
+}
+
+.btn {
+    font-size: 200%;
+    
+}
