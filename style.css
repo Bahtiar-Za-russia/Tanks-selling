@@ -47,7 +47,7 @@ main{
 }
 .block{
     margin-bottom: 5%;
-    justify-content: center;
+    justify-content: start;
 }
 .block img{
     height: 175px;
@@ -86,15 +86,16 @@ main{
 }
 
 .slide-item {
+    display: flex;
     height: 50vh;
     width: 50vw;
     background-repeat: no-repeat;
     background-size: cover;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .text {
-    position: absolute;
-    margin-top: 45%;
     margin-left: 50%;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0);
